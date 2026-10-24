@@ -1,0 +1,8 @@
+{
+  "key.inventory_ui_beautification.sort": "Sort Inventory",
+  "key.inventory_ui_beautification.take": "Take All From Container",
+  "key.inventory_ui_beautification.deposit": "Deposit All Into Container",
+  "key.inventory_ui_beautification.restock": "Restock Hotbar",
+  "key.inventory_ui_beautification.stack": "Take One Full Stack",
+  "key.categories.inventory_ui_beautification": "Inventory UI Beautification"
+}

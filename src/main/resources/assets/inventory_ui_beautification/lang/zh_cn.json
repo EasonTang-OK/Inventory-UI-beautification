@@ -1,0 +1,9 @@
+{
+  "key.inventory_ui_beautification.sort": "整理物品栏",
+  "key.inventory_ui_beautification.take": "快速拿取容器物品",
+  "key.inventory_ui_beautification.deposit": "快速放回物品到容器",
+  "key.inventory_ui_beautification.restock": "自动补货快捷栏",
+  "key.inventory_ui_beautification.stack": "智能拿取一整组",
+  "key.inventory_ui_beautification.struct_hud": "切换结构定位显示",
+  "key.categories.inventory_ui_beautification": "物品栏美化"
+}

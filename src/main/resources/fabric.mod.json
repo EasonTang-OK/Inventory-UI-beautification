@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "inventory_ui_beautification",
+  "version": "${version}",
+  "name": "Inventory UI beautification",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/inventory_ui_beautification/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.exampl.inventory_ui_beautification.client.Inventory_ui_beautificationDataGenerator"
+    ],
+    "client": [
+      "org.exampl.inventory_ui_beautification.client.Inventory_ui_beautificationClient",
+      "org.exampl.inventory_ui_beautification.client.HudModClient"
+    ],
+    "main": [
+      "org.exampl.inventory_ui_beautification.Inventory_ui_beautification"
+    ]
+  },
+  "mixins": [
+    "inventory_ui_beautification.mixins.json",
+    {
+      "config": "inventory_ui_beautification.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
